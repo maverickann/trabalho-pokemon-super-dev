@@ -1,0 +1,83 @@
+:root{
+    --color-top:#BF092F;
+    --body-background-color:#f4f4f4 ;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.home {
+    background-color:#f4f4f4;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color-top);
+    justify-content: space-between;
+    height: auto;
+}
+
+.op {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.img-logo {
+    width: 150px;
+    padding-left: 35px;
+}
+.carrinho {
+    font-size: 25px
+}
+
+.btn-nav{
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    border: none;
+    border-radius: 20px;
+    color: --;
+    padding: 5px;
+    width: 70px;
+}
+.produtos{
+    background-color: #fff ;
+    width: 100%;
+    height: 100%;
+    height: 200px;
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    align-content: flex-end;
+    background-color: #16476A;
+
+}
+.img-logo-footer {
+    width: 120px;
+    padding-left: 35px;
+}
+.icon{
+    width: 120px;
