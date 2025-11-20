@@ -23,16 +23,16 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: var(--color-top);
+    background-color: #000;
     justify-content: space-between;
-    height: auto;
+    height: 100%;
 }
 
 .op {
     display: flex;
     flex-direction: row;
     padding: 30px;
-    padding-right: 40px;
+    padding-right: 100px;
     text-align: center;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .img-logo {
     width: 150px;
-    padding-left: 35px;
+    padding-left: 250px;
 }
 .carrinho {
     font-size: 25px
@@ -58,8 +58,8 @@ body {
     font-optical-sizing: auto;
     border: none;
     border-radius: 20px;
-    color: --;
-    padding: 5px;
+    color: #000;
+    padding: 8px;
     width: 70px;
 }
 .produtos{
@@ -71,13 +71,61 @@ body {
 }
 .footer{
     display: flex;
-    align-content: flex-end;
+    align-content: center;
     background-color: #16476A;
 
 }
 .img-logo-footer {
     width: 120px;
     padding-left: 35px;
+    align-items: center;
+
 }
 .icon{
     width: 120px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+
+}
+.img-icon{
+    width: 120px;
+}
+.barra-de-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #BF092F;
+}
+.links{
+    color: #fff;
+    text-decoration:none ;
+    padding: 10px ; 
+    font-size: 20px;
+    align-items: center;
+}
+.links:hover{
+    background-color: #f4f4f452;
+}
+.busca{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.input-busca{
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 20px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    text-indent: 1em;
+}
+.lupa{
+    font-size: 30px;
+}
