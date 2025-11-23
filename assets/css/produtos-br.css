@@ -4,7 +4,6 @@
 }
 
 body {
-    min-height: 100vh;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -26,7 +25,6 @@ body {
     align-items: center;
     background-color: #000;
     justify-content: space-between;
-    height: 100%;
 }
 
 .op {
@@ -66,12 +64,12 @@ body {
 }
 
 .barra-de-links {
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 10px;
     background-color: #BF092F;
 }
 
@@ -79,6 +77,9 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
     font-size: 20px;
     align-items: center;
 }
@@ -111,10 +112,9 @@ body {
 
 .produtos {
     background-color: #fff;
-    width: 100%;
-    height: 100%;
     margin: 10px;
     align-content: center;
+    margin-bottom: 10px;
 
 }
 
@@ -185,14 +185,16 @@ body {
 
 
 }
+
 /*Até aqui = Layout*/
 
-.itens{
+.itens {
     min-height: 340px;
     align-content: center;
 
 }
-.lista-itens{
+
+.lista-itens {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -200,26 +202,31 @@ body {
     align-content: center;
 
 }
-.item{
+
+.item {
     width: 230px;
     text-align: center;
-    border: 2px solid transparent; 
+    border: 2px solid transparent;
     align-content: center;
 
 
 }
-.item:hover{
+
+.item:hover {
     box-shadow: 0 0 10px rgba(141, 136, 138, 0.4);
     border-radius: 19px;
 
 }
-.nome-colecao{
+
+.nome-colecao {
     text-indent: 1em;
     margin: 5px
 }
-.img-produto{
+
+.img-produto {
     width: 190px;
 }
-.preco{
+
+.preco {
     font-weight: 600;
 }
