@@ -13,7 +13,6 @@ body {
 
 }
 
-
 .home {
     background-color: #f4f4f4;
     color: #fff;
@@ -188,4 +187,53 @@ body {
     padding-right: 50px;
 
 
+}
+
+/*Até aqui = Layout*/
+
+.itens {
+    min-height: 340px;
+    align-content: center;
+
+}
+
+.lista-itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+
+.item {
+    width: 210px;
+    text-align: center;
+    border: 2px solid transparent;
+    align-content: center;
+
+
+}
+
+.item:hover {
+    box-shadow: 0 0 10px rgba(141, 136, 138, 0.4);
+    border-radius: 19px;
+
+}
+
+.nome-produto {
+    text-indent: 1em;
+    margin: 5px
+}
+
+.img-produto {
+    width: 190px;
+}
+.img-produto-carta {
+    padding-top: 5px;
+    width: 180px;
+    border-radius: 10px;
+}
+.preco {
+    font-weight: 600;
 }
