@@ -201,7 +201,12 @@ body {
 .card {
     width: 30%;
     text-align: center;
+     background: #BF092F;
+    border: 2px solid #ff002b;
+    border-radius: 12px;
+    padding: 20px;
 }
+
 
 .card img {
     width: 100%;
@@ -210,4 +215,7 @@ body {
 }
 h1 {
     text-align: center;
+}
+p , h3 {
+    color: #fff;
 }
