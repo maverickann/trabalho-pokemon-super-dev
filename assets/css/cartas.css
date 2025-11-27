@@ -13,7 +13,6 @@ body {
 
 }
 
-
 .home {
     background-color: #f4f4f4;
     color: #fff;
@@ -25,8 +24,6 @@ body {
     align-items: center;
     background-color: #000;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px;
 }
 
 .op {
@@ -35,8 +32,6 @@ body {
     padding: 30px;
     padding-right: 100px;
     text-align: center;
-    padding-right: 20px;
-    gap: 10px;
 }
 
 .logo {
@@ -48,7 +43,6 @@ body {
 .img-logo {
     width: 150px;
     padding-left: 250px;
-    
 }
 
 .carrinho {
@@ -124,7 +118,7 @@ body {
     margin: 10px;
     align-content: center;
     margin-bottom: 10px;
-    
+
 }
 
 .footer {
@@ -133,7 +127,6 @@ body {
     align-items: center;
     padding: 20px;
     max-height: 120px;
-    gap: 20px;
 }
 
 .space-between {
@@ -145,8 +138,7 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+
 
 
     .logo {
