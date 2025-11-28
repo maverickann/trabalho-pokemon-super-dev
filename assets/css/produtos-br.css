@@ -192,7 +192,7 @@ body {
 /*Até aqui = Layout*/
 
 .itens {
-    min-height: 340px;
+    min-height: 380px;
     align-content: center;
 
 }
@@ -232,4 +232,22 @@ body {
 
 .preco {
     font-weight: 600;
+}
+
+.btn-prod{
+    width: 90%;
+    height: 30px;
+    border: none;
+    background-color: #000;
+    border-radius: 17px;
+}
+
+.btn-prod-a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
 }
