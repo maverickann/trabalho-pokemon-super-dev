@@ -1,0 +1,253 @@
+:root {
+    --color-top: #BF092F;
+    --body-background-color: #f4f4f4;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+.home {
+    background-color: #f4f4f4;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000;
+    justify-content: space-between;
+}
+
+.op {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.img-logo {
+    width: 150px;
+    padding-left: 250px;
+}
+
+.carrinho {
+    font-size: 25px;
+    align-content: center;
+}
+
+.btn-nav {
+    background-color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 70px;
+}
+.btn-nav-a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+.barra-de-links {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #BF092F;
+}
+
+.links {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+}
+
+.links:hover {
+    background-color: #f4f4f452;
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.input-busca {
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 20px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    text-indent: 1em;
+}
+
+.lupa {
+    font-size: 30px;
+}
+
+.produtos {
+    background-color: #fff;
+    margin: 10px;
+    align-content: center;
+    margin-bottom: 10px;
+
+}
+
+.footer {
+    flex-direction: row;
+    background-color: #16476A;
+    align-items: center;
+    padding: 20px;
+    max-height: 120px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+
+
+    .logo {
+        width: 100px;
+        align-items: center;
+        padding-left: 50px;
+
+
+    }
+
+    .img-logo-footer {
+        width: 130px;
+    }
+
+    .icon {
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img-icon {
+        width: 120px;
+
+    }
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    border-left: #fff solid 4px;
+    padding-left: 15px;
+
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+    padding-right: 50px;
+
+
+}
+
+/*Até aqui = Layout*/
+
+.itens {
+    min-height: 380px;
+    align-content: center;
+
+}
+
+.lista-itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+
+.item {
+    width: 230px;
+    text-align: center;
+    border: 2px solid transparent;
+    align-content: center;
+
+
+}
+
+.item:hover {
+    box-shadow: 0 0 10px rgba(141, 136, 138, 0.4);
+    border-radius: 19px;
+
+}
+
+.nome-colecao {
+    text-indent: 1em;
+    margin: 5px
+}
+
+.img-produto {
+    width: 190px;
+}
+
+.preco {
+    font-weight: 600;
+}
+
+.btn-prod{
+    width: 90%;
+    height: 30px;
+    border: none;
+    background-color: #000;
+    border-radius: 17px;
+}
+
+.btn-prod-a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}

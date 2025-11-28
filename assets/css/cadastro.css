@@ -1,0 +1,85 @@
+body {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.formulario {
+    padding: 130px 80px;
+    background-color: #16476A;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(141, 136, 138, 0.4);
+    align-items: center;
+}
+
+.campo {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn{
+    background-color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 100px;
+    text-decoration: none;
+    color: #000;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.img-logo{
+    width: 170px;
+    object-position: center;
+}
+.botao{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.titulo{
+    margin-bottom: 50px;
+}
+.input{
+    border: none;
+    border-radius: 5px;
+}   
+.nome{
+   margin-left: 3px;
+}
+.cpf{
+   margin-left: 10px;
+}
+.email{
+margin-left:4px;
+   
+}
+.senha{
+   margin-left: 3px;
+
+}

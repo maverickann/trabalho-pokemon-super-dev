@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/contato.css">
-    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="shortcut icon" href="../assets/image/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
-    <title>LVY TCG</title>
+    <title>Login</title>
 </head>
 
 <body>
@@ -41,6 +41,7 @@
     </div>
     <div class="barra-de-links">
         <div><a class="links" href="../index.html">Home</a></div>
+
         <div><a class="links" href="sobre.html">Sobre</a></div>
         <div><a class="links" href="Contato.html">Contato</a></div>
         <div><a class="links" href="acessorios.html">Acessórios</a></div>
@@ -53,36 +54,36 @@
     </div>
 
 
-    <div class="contato">
-        <form class="formulario" action="login.html">
+    <div class="forms">
 
-            <h1 class="titulo">Nos envie sua experiência</h1>
-            <div class="campo nome">
-                <label for="campo-nome">Nome</label>
-                <input class="input nome" type="text" placeholder="Seu nome" id="campo-nome" name="campo-nome">
+        <div class=" log ">
+            <div class="lado">
+
+                <div class="logo"> <img class="img-logo" src="../assets/image/logo1.png" alt="logo"></div>
+
+                <div>
+
+                    <h3>Já tem Cadastro</h3>
+                    <div class="campo email">
+                        <label for="campo-email">E-mail</label>
+                        <input class="input email" type="email" id="campo-email" name="campo-email">
+                    </div>
+                    <div class="campo senha">
+                        <label for="campo-senha">Senha</label>
+                        <input class="input senha" type="password" id="campo-senha" name="campo-senha">
+                    </div>
+                    <button>
+                        <a href="../index.html">Entrar</a>
+                    </button>
+                    <h3>Ainda não é cadastrado?</h3>
+                    <a href="cadastro.html">Cadastre-se</a>
+                </div>
             </div>
-            <div class="campo cpf">
-                <label for="campo-cpf">CPF</label>
-                <input class="input cpf" type="text" placeholder="Ex:000.000.000-00" id="campo-cpf" name="campo-cpf">
-            </div>
-            <div class="campo email">
-                <label for="campo-email">E-mail</label>
-                <input class="input email" type="email" id="campo-email" placeholder="...@gmail.com" name="campo-email">
-            </div>
-            <div class="campo numero">
-                <label for="campo-senha">Telefone</label>
-                <input class="input number" type="number" placeholder="+55 (47) 99999-9999" id="campo-numero"
-                    name="campo-numero">
-            </div>
-            <div class="campo dados">
-                <label class="tt" for="campo-dados">Mensagem</label>
-                <input class="input dados" type="text" placeholder="Digite sua mensagem" id="campo-dados"
-                    name="campo-dados">
-            </div>
-            <div class="botao"><button class="btn">Enviar</button></div>
-        </form>
+        </div>
 
     </div>
+
+
 
     <div class="footer space-between">
         <div class="footer-1">
