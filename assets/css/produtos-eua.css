@@ -200,35 +200,48 @@ body {
 
 .lista-itens {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-
+    flex-wrap: wrap;               
+    gap: 30px;                     
+    justify-content: space-between;
+    align-items: flex-start;     
+    padding: 20px 10px;
+    box-sizing: border-box;
 }
 
 .item {
-    width: 240px;
+    width: 240px;               
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    border: 2px solid transparent;
-    align-content: center;
-
-
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: box-shadow .18s ease;
+    height: 360px;
+    overflow: hidden;
 }
+
 
 .item:hover {
-    box-shadow: 0 0 10px rgba(141, 136, 138, 0.4);
-    border-radius: 19px;
-
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
 }
+
 
 .nome-produto {
     text-indent: 1em;
     margin: 5px
 }
 
-.img-produto {
-    width: 190px;
+.img-produto,
+.img-produto-carta {
+    width: 180px;         
+    height: 180px;         
+    object-fit: contain;  
+    display: block;
+    margin-bottom: 10px;
 }
 .img-produto-carta {
     padding-top: 5px;
