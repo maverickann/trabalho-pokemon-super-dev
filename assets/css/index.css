@@ -9,10 +9,9 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #00000060;
+    background-color: #f4f4f4;
 
 }
-
 
 .home {
     background-color: #f4f4f4;
@@ -58,6 +57,7 @@ body {
     border-radius: 20px;
     padding: 8px;
     width: 70px;
+    justify-content: center;
 }
 .btn-nav-a{
     text-decoration: none;

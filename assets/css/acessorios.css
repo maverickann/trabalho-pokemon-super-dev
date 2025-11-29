@@ -192,12 +192,6 @@ body {
 
 /*Até aqui = Layout*/
 
-.itens {
-    min-height: 340px;
-    align-content: center;
-
-}
-
 .lista-itens {
     display: flex;
     flex-direction: row;
@@ -206,10 +200,16 @@ body {
     align-content: center;
 
 }
+.itens {
+    min-height: 340px;
+    align-content: center;
+
+}
+
 
 .item {
-    min-width: 300px;
-    min-height: 300px;
+    width: 220px;
+    min-height: 330px;
     text-align: center;
     border: 2px solid transparent;
     align-content: center;
