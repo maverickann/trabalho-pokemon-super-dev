@@ -236,6 +236,11 @@ body {
     font-optical-sizing: auto;
     cursor: pointer;
 }
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .titulo{
     margin-bottom: 40px;
