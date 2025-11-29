@@ -177,6 +177,10 @@ body {
     padding-left: 15px;
 
 }
+.local{
+    font-weight: bold;
+}
+
 
 .footer-3 {
     display: flex;

@@ -18,6 +18,11 @@ body {
     background-color: #f4f4f4;
     color: #fff;
 }
+.local{
+    font-weight: bold;
+}
+
+
 
 .navbar {
     display: flex;

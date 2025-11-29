@@ -241,6 +241,10 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+.local{
+    font-weight: bold;
+}
+
 
 .titulo{
     margin-bottom: 40px;

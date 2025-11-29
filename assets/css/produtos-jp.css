@@ -197,6 +197,10 @@ body {
     align-content: center;
 
 }
+.local{
+    font-weight: bold;
+}
+
 
 .lista-itens {
     display: flex;
