@@ -188,6 +188,7 @@ body {
     align-content: center;
     max-height: 500px;
       border-radius: 50px;
+       text-align: center;
 }
 .itens{
     display: flex;
@@ -206,7 +207,10 @@ body {
 }
 
 h3{
+  
     margin-left: 5px;
+  
+      text-align: center;
 }
 
 .item{
