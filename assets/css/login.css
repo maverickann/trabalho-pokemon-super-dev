@@ -57,6 +57,7 @@ body {
     border-radius: 20px;
     padding: 8px;
     width: 70px;
+    justify-content: center;
 }
 .btn-nav-a{
     text-decoration: none;
@@ -118,7 +119,6 @@ body {
     margin: 10px;
     align-content: center;
     margin-bottom: 10px;
-    
 }
 
 .footer {
@@ -138,44 +138,37 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
+}
 
+.footer-1 .logo {
+    width: 100px;
+    align-items: center;
+    padding-left: 50px;
+}
 
+.footer-1 .img-logo-footer {
+    width: 130px;
+}
 
-    .logo {
-        width: 100px;
-        align-items: center;
-        padding-left: 50px;
+.footer-1 .icon {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
-    }
-
-    .img-logo-footer {
-        width: 130px;
-    }
-
-    .icon {
-        width: 120px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .img-icon {
-        width: 120px;
-
-    }
+.footer-1 .img-icon {
+    width: 120px;
 }
 
 .footer-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: center;
-    justify-content: center;
     color: #fff;
     border-left: #fff solid 4px;
     padding-left: 15px;
-
 }
 
 .footer-3 {
@@ -185,46 +178,58 @@ body {
     align-content: center;
     color: #fff;
     padding-right: 50px;
-
-
 }
 
-
-
 .log {
-      padding: 100px 60px;
+    padding: 100px;
+    width: 500px;
     background-color: #16476A;
     border: none;
     color: #fff;
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(141, 136, 138, 0.4);
     align-items: center;
-
-    a{
-        color: #f4f4f4;
-    }
-    .lado{
-        display: flex;
-         
-        justify-content: space-between;
-    }
 }
+.img-logo-form{
+    width: 200px;
+}
+.log a {
+    color: #f4f4f4;
+}
+
+.log .lado {
+    display: flex;
+    justify-content: space-between;
+}
+
 .forms {
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
-.img-logo{
+
+
+.img-logo {
     width: 170px;
     object-position: left;
 }
- button{
-    background-color: #1c5e8d ;
+.justify{
+ justify-content: space-around;
+}
+
+button {
+    background-color: #1c5e8d;
     border-radius: 15px;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: flex-end;
     border-color: #f4f4f4;
+}
 
- }
+.lado{
+display: flex;
+flex-direction: row;
+
+
+}

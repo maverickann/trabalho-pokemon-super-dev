@@ -57,6 +57,7 @@ body {
     border-radius: 20px;
     padding: 8px;
     width: 70px;
+    justify-content: center;
 }
 .btn-nav-a{
     text-decoration: none;
@@ -207,19 +208,21 @@ body {
 }
 
 .item {
-    width: 230px;
+    width: 220px;
+    min-height: 330px;
     text-align: center;
     border: 2px solid transparent;
     align-content: center;
 
-
 }
+
 
 .item:hover {
     box-shadow: 0 0 10px rgba(141, 136, 138, 0.4);
     border-radius: 19px;
 
 }
+
 
 .nome-colecao {
     text-indent: 1em;
@@ -232,22 +235,4 @@ body {
 
 .preco {
     font-weight: 600;
-}
-
-.btn-prod{
-    width: 90%;
-    height: 30px;
-    border: none;
-    background-color: #000;
-    border-radius: 17px;
-}
-
-.btn-prod-a{
-    color: #fff;
-    font-size: 14px;
-    text-decoration: none;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-
 }
